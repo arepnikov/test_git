@@ -1,1 +1,32 @@
-asd
+// Tworze folder:
+$ mkdir test_git
+
+// wchodze do stworzonego folderu
+$ cd test_git/
+
+// tworze nowy plik
+$ touch README
+
+// otwieram aktualny folder w edytorze Sublime
+$ subl .
+
+// Inicjalizujemy repozytorium
+$ git init
+
+// wyswietlamy zawartosc folderu
+$ ls
+README
+
+// wyswietlamy zawartosc folderu wraz z ukrutymi plikami/folderami
+$ ls -a
+
+// Wyswietla status repozytorium
+$ git status
+
+// Rejestrujemy/Dodajemy plik do repozytorium, teraz git bedzie sledzil jego zmiany
+$ git add README
+
+// Wyswietla status repozytorium
+$ git status
+
+### PROGRAM ZBAWCA: Sublime Merge
